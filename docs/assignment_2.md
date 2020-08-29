@@ -21,7 +21,7 @@ Students will be assessed on 2 outputs.
 
 * The performance itself.
 
-* The documentation of the performance.  Can be a video, of the performance, a catelog of code, a website, up to the student what medium they prefer ... but documentation should be digital and uploaded to the same git archive as assignment 1 (we'll explain what this means in class).
+* The documentation of the performance.  Can be a video of the performance, a catelog of code, a website, up to the student what medium they prefer ... but documentation should be digital and uploaded to the same git archive as assignment 1 (we'll explain what this means in class).  Don't over think/over design this, unless you just really want to ... the bulk of the work should be preparing the performance itself.
 
 ## Learning objective
 
