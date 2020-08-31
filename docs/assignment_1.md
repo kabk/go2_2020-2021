@@ -1,5 +1,11 @@
 # Assignment 1, Fansite
 
+## Context
+
+This is the 1st assignment for the first semester coding course in the graphic design department at KABK, lead by James Bryan Graves.
+
+## Description
+
 "A fansite, fan site, fan blog or fan page is a website created and maintained by a fan or devotee about a celebrity, thing, or particular cultural phenomenon."
 
 https://en.wikipedia.org/wiki/Fansite

@@ -1,5 +1,11 @@
 # Assignment 2, Live coding
 
+## Context
+
+This is the 1st assignment for the first semester coding course in the graphic design department at KABK, lead by James Bryan Graves.
+
+## Description
+
 3 - 5 minute long live browser/coding experience by manipulating the HTML DOM structure, CSS and content of an existing website to tell an engaging nartive to the audience. Javascript and CSS injection will be used to create the audio and visual experience.
 
 This is slightly different than live coding or algoraves, as we will *NOT* be diving into the multitude of tools available for those experiences, but rather will leverage the browser itself to server as the coding platform.
