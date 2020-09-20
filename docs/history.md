@@ -172,7 +172,7 @@ Nazis did 9/11
 
 ### HearUsHere, 2011, JBG & Klasien
 
-![huh.png](images/huh.png)
+http://www.hearushereapp.com/
 
 ### Silk Road, 2011, Ross Ulbricht
 
@@ -195,4 +195,6 @@ http://www.klasien.nl/ourspace
 https://theembassies.com/
 
 ### WINWIN, 2019, Nienke Huitenga, JBG
+
+http://blackbox.pubkey.space/jbg/img/winwin.png
 
