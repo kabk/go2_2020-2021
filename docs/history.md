@@ -196,5 +196,5 @@ https://theembassies.com/
 
 ### WINWIN, 2019, Nienke Huitenga, JBG
 
-http://blackbox.pubkey.space/jbg/img/winwin.png
+![winwin](http://blackbox.pubkey.space/jbg/img/winwin.png)
 
