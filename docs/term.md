@@ -168,3 +168,15 @@ Repeat!
 
 https://git-scm.com/
 
+## Create a blackbox account
+
+Select a username that is: *all one word*.
+
+*Write down your password, and don't forget it.*
+
+http://blackbox.pubkey.space/signup/
+
+## Checkout your repository
+
+    $ git clone ssh://*<USERNAME>*@blackbox.pubkey.space/home/*<USERNAME>*/archive.git
+
