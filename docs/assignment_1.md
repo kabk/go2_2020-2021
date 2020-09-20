@@ -18,7 +18,7 @@ https://en.wikipedia.org/wiki/Software\_feature
 
 Examples: Animation (rotation, scaling, etc.), sound, hover states, click/tap user interaction, video, menus, etc..
 
-Each week the new features will be committed to James' server, using Git.
+Each week the new features will be committed to blackbox.pubkey.space, using Git.
 
 https://git-scm.com/
 
