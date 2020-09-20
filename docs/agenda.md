@@ -1,5 +1,7 @@
 # Agenda
 
+KABK: BA112 / BA102 / BB202 / BB203
+
 * Sept 14, 2A/2B Off-academy activity
 
 * Sept 21, 2A ALL DAY @ KABK
