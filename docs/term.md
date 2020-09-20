@@ -178,5 +178,7 @@ http://blackbox.pubkey.space/signup/
 
 ## Checkout your repository
 
-    $ git clone ssh://*<USERNAME>*@blackbox.pubkey.space/home/*<USERNAME>*/archive.git
+Please NOTE: *Replace __USERNAME__* with your selected username.
+
+    $ git clone ssh://__USERNAME__@blackbox.pubkey.space/home/__USERNAME__/archive.git
 
