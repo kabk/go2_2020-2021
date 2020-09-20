@@ -180,5 +180,25 @@ http://blackbox.pubkey.space/signup/
 
 Please NOTE: *Replace __USERNAME__* with your selected username.
 
-    $ git clone ssh://__USERNAME__@blackbox.pubkey.space/home/__USERNAME__/archive.git
+    $ git clone ssh://__USERNAME__@blackbox.pubkey.space/home/__USERNAME__/archive.git archive
+
+## Go into your repository folder/director
+
+    $ cd archive
+
+## Add a file to that folder
+
+    $ touch foo
+
+## Add the file to git
+
+    $ git add foo 
+
+Or ...
+
+    $ git add *
+
+## Commit the file to the server
+
+    $ git push origin master
 
