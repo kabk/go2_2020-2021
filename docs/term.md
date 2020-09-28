@@ -198,6 +198,10 @@ Or ...
 
     $ git add *
 
+## Do a commit with a message
+
+    $ git commit -am "I added the file foo"
+
 ## Commit the file to the server
 
     $ git push origin master
