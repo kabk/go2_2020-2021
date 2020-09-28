@@ -12,6 +12,16 @@ https://www.youtube.com/watch?v=J7ITqnEmf-g
 
 https://www.youtube.com/watch?v=MQzpLLhN0fY
 
+### IBM (Hollerith 1890)
+![IBM](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Vrouw_bij_een_sorteermachine%2C_Bestanddeelnr_254-2223.jpg/440px-Vrouw_bij_een_sorteermachine%2C_Bestanddeelnr_254-2223.jpg)
+
+### Punch cards (mid-1900s)
+
+![Punch](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.cXlYjgBI5OQ0NBJjAtvmEwHaEZ%26pid%3DApi&f=1)
+
+### Alan Turing
+![Turing](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alan_Turing_Aged_16.jpg/440px-Alan_Turing_Aged_16.jpg)
+
 ### Telephone system
 ![Switch board](http://4.bp.blogspot.com/-Ufv7u9IqlZc/TZfwOep-raI/AAAAAAAADyo/UO0jfSZjdzg/s1600/Telephone+switchboard+operators+in+WW%252C+1957.jpg)
 
@@ -24,10 +34,6 @@ https://www.youtube.com/watch?v=9CrcRabTQ0s
 ### Information Theory, 1948, Claude E. Shannon
 
 ![Claude](images/claude.jpg)
-
-### Punch cards (mid-1900s)
-
-![Punch](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.cXlYjgBI5OQ0NBJjAtvmEwHaEZ%26pid%3DApi&f=1)
 
 ### Unix, 1970s, Ken Thompson & Dennis Richie
 
