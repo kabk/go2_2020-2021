@@ -18,21 +18,29 @@ https://en.wikipedia.org/wiki/Software\_feature
 
 Examples: Animation (rotation, scaling, etc.), sound, hover states, click/tap user interaction, video, menus, etc..
 
-Each week the new features will be committed to blackbox.pubkey.space, using Git.
+Each week the new features and content will be committed to blackbox.pubkey.space, using Git.
 
-https://git-scm.com/
+Do not be shy about taking this pseudo-seriously.  Let's steer away from _FAKE NEWS_, try to treat it as a journalist exercise, and frame the features and content in an identity (voice, design, logos, typography, etc.) of your own creation.
 
 ## Assessment
 
-Please commit a new feature described in a git commit message (we will learn about git in class) by Friday evening everyweek.  This should be a minium 1 - 2 hour a week time requirement.
+Please commit a new feature described in a git commit message (we will learn about git in class) by Friday evening everyi week.  This should be a minium 1 - 2 hour a week time requirement.
 
-This means there will be a total of 10 features in the website by the end of the semester.
-
-*SITE SHOULD WORK ON MOBILE AND DESKTOP AND BEAMER*
+Please commit a new piece of content along with the feature.  Content can be copy, image(s), links with desciption, etc..
 
 Please do NOT use jQuery.  Only native browser functionality will be accepted.
 
 ## Learning objective
 
 You will have a basic understanding of HTML, CSS and Javascript.
+
+## Examples
+
+These are VERY boring examples.
+
+http://www.unofficialroyalty.com/
+https://tomcruisefan.com/
+https://www.theninhotline.com/
+https://www.theninhotline.com/news/
+https://monkees.coolcherrycream.com/
 
