@@ -4,7 +4,7 @@
 
 Clone your repository to your laptop.
 
-Please NOTE: *Replace <USERSNAME>* with your selected username.
+Please NOTE: *Replace `<USERSNAME>`* with your selected username.
 
     $ git clone ssh://<USERNAME>@blackbox.pubkey.space/home/<USERNAME>/archive.git archive
 
