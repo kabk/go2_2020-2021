@@ -20,7 +20,7 @@ Examples: Animation (rotation, scaling, etc.), sound, hover states, click/tap us
 
 Each week the new features and content will be committed to blackbox.pubkey.space, using Git.
 
-Do not be shy about taking this pseudo-seriously.  Let's steer away from _FAKE NEWS_, try to treat it as a journalist exercise, and frame the features and content in an identity (voice, design, logos, typography, etc.) of your own creation.
+Do not be shy about taking this pseudo-seriously.  Frame the features and content in an identity (voice, design, logos, typography, etc.) of your own creation.
 
 ## Assessment
 

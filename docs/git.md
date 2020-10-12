@@ -24,6 +24,18 @@ Generally speaking the 3 steps you will do most often, when adding new content t
 
     $ git push origin master
 
+## NOTES
+
+You have to be in the `archive/` folder in the terminal for the commands to work.  You can verify this as follows.
+
+    $ pwd
+
+Should should you are in the `archive/` folder.
+
+    $ cd ~/archive
+
+Should place you in the correct folder.
+
 ## History
 
 Git stores a working history for you.  That's why commit messages can be handy.
