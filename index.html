@@ -1,0 +1,91 @@
+<html>
+<head>
+  <meta charset="UTF8">
+
+<style>
+
+.red {
+  background: #f00;
+}
+
+#alice {
+  font-size: 50px;
+}
+
+.blue {
+  background: #00f;
+}
+
+.green {
+  background: #0f0;
+}
+
+p span {
+  font-size: 100px;
+}
+
+</style>
+
+</head>
+<body>
+  <h1 class="red">Hello world</h1>
+  <span>Doris</span>
+  <p id="alice" class="red">Alice</p>
+  <p><span class="green">Bob</span> <span class="blue">Charlie</span></p>
+
+  <script>
+
+    let x = 563
+    x = 99
+    x = "kelly"
+
+    const y = "alice"
+    const z = "bob"
+
+
+    console.log("x ------> " + x + ", " + y + ", " + z)
+
+    console.log(`x ------> ${x}, ${y}, ${z}`)
+   
+    function f() {
+      let y = 3 
+      //let x = 999
+      console.log("f", y)
+      console.log("f", x)
+    }
+
+    function e() {
+      let y = 2 
+      console.log("e", y)
+      //console.log("e", x)
+      f()
+    }
+
+    function d() {
+      let y = 1
+      console.log("d", y)
+      //console.log("d", x)
+      e()
+    }
+
+
+    d()
+
+    let r = 0
+    function handleClick(e) {
+      setInterval(() => {
+        e.target.style.transform = `rotate(${r++}deg)`
+        //e.target.style.transform = "rotate(" + (r++) + "deg)"
+      }, 100)
+    }
+
+    document.querySelector("#alice").addEventListener("click", handleClick)
+
+    document.querySelectorAll('.text').forEach(e => {
+          e.addEventListener("click", doSomething)
+    })
+
+  </script>
+
+</body>
+</html>
