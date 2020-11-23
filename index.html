@@ -3,87 +3,82 @@
   <meta charset="UTF8">
 
 <style>
-
-.red {
-  background: #f00;
+body {
+    margin: 0;
+    padding: 0;
+}
+.panelCon{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+.panel {
+    width: 100%;
+}
+.panel h1 {
+    width: 100px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+}
+#pane-1 {
+    background-color: green;
+}
+#pane-2 {
+    background-color: red;
+}
+#pane-3 {
+    background-color: white;
+}
+#pane-4 {
+    background-color: pink;
+}
+#pane-5 {
+    background-color: yellow;
 }
 
-#alice {
-  font-size: 50px;
-}
-
-.blue {
-  background: #00f;
-}
-
-.green {
-  background: #0f0;
-}
-
-p span {
-  font-size: 100px;
-}
 
 </style>
 
 </head>
 <body>
-  <h1 class="red">Hello world</h1>
-  <span>Doris</span>
-  <p id="alice" class="red">Alice</p>
-  <p><span class="green">Bob</span> <span class="blue">Charlie</span></p>
-
+      <div class="panelCon">
+    <div id="pane-5" class="panel">
+        <h1>5</h1>
+    </div>
+    <div id="pane-4"class="panel">
+        <h1>4</h1>
+    </div>
+    <div id="pane-3"class="panel">
+        <h1>3</h1>
+    </div>
+    <div id="pane-2" class="panel">
+        <h1>2</h1>
+    </div>
+    <div id="pane-1" class="panel">
+        <h1>1</h1>
+    </div>
+    </div>
   <script>
 
-    let x = 563
-    x = 99
-    x = "kelly"
+    const winHeight = window.innerHeight;
+console.log(winHeight)
+window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+    document.querySelectorAll('.panel').forEach(p => p.style.height = winHeight);
+    document.querySelector('body').style.height = winHeight * document.querySelectorAll('.panel').length;
+});
 
-    const y = "alice"
-    const z = "bob"
+window.addEventListener('resize', function (event) {
+    document.querySelectorAll('.panel').forEach(p => p.style.height = winHeight);
+});
 
-
-    console.log("x ------> " + x + ", " + y + ", " + z)
-
-    console.log(`x ------> ${x}, ${y}, ${z}`)
-   
-    function f() {
-      let y = 3 
-      //let x = 999
-      console.log("f", y)
-      console.log("f", x)
-    }
-
-    function e() {
-      let y = 2 
-      console.log("e", y)
-      //console.log("e", x)
-      f()
-    }
-
-    function d() {
-      let y = 1
-      console.log("d", y)
-      //console.log("d", x)
-      e()
-    }
-
-
-    d()
-
-    let r = 0
-    function handleClick(e) {
-      setInterval(() => {
-        e.target.style.transform = `rotate(${r++}deg)`
-        //e.target.style.transform = "rotate(" + (r++) + "deg)"
-      }, 100)
-    }
-
-    document.querySelector("#alice").addEventListener("click", handleClick)
-
-    document.querySelectorAll('.text').forEach(e => {
-          e.addEventListener("click", doSomething)
-    })
+window.addEventListener('scroll' ,function() {
+    document.querySelector('.panelCon').style.bottom = window.pageYOffset * -1;
+});
 
   </script>
 

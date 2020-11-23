@@ -50,7 +50,7 @@ function shuffle(a) {
 
 function chunkArray(a, size){
     let i = 0;
-    var temp = [];
+    let temp = [];
     
     for (let i = 0; i < a.length; i += size) {
         chunk = a.slice(i, i + size);
@@ -60,6 +60,6 @@ function chunkArray(a, size){
     return temp;
 }
 
-var result = chunkArray(shuffle(students), 3);
+const result = chunkArray(shuffle(students), 3);
 console.log(result);
 
