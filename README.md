@@ -14,7 +14,11 @@ We used this code to split students in to groups of equal size randomly.
 
 Minimal starting template for playing a midi instrument.  This a node.js thing, and has a corresponding `package.json`.
 
+Install dependencies...
+
     $ npm install
+
+Run...
 
     $ node midi.js
 
