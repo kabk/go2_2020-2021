@@ -12,7 +12,11 @@ We used this code to split students in to groups of equal size randomly.
 
 ## midi.js
 
-Minimal starting template for playing a midi instrument.
+Minimal starting template for playing a midi instrument.  This a node.js thing, and has a corresponding `package.json`.
+
+    $ npm install
+
+    $ node midi.js
 
 ## accordion\_center
 
