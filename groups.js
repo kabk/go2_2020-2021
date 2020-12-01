@@ -1,24 +1,26 @@
-//const students = [
-//  'Abel',
-//  'Alice',
-//  'Andy',
-//  'Barbara',
-//  'Einar',
-//  'Erae',
-//  'Jannie',
-//  'Jiye',
-//  'Julia',
-//  'Lulu',
-//  'Luna',
-//  'Maria',
-//  'Samuel',
-//  'Simonida',
-//  'Tinka',
-//  'Yeeun',
-//  'Lois',
-//  'Kelly',
-//]
-//
+const students = [
+  'Abel',
+  'Alice',
+  'Andy',
+  'Barbara',
+  'Einar',
+  'Erae',
+  'Jannie',
+  'Jiye',
+  'Julia',
+  'Lulu',
+  'Luna',
+  'Maria',
+  'Samuel',
+  'Simonida',
+  'Tinka',
+  'Yeeun',
+  'Lois',
+  'Kelly',
+]
+
+
+/*
 const students = [
   'Niam',
   'Alessandro',
@@ -27,18 +29,19 @@ const students = [
   'Owen',
   'Leona',
   'Lara',
-  'Renata',
-  'Jackie',
-  'Amber',
+  //'Renata',
+  //'Jackie',
+  //'Amber',
   'Hilal',
   'Alex',
   'Chiara',
   'Patrick',
   'Elina',
-  'Ronaldo',
+  //'Ronaldo',
   'Kacka',
   'Isabella'
 ]
+*/
 
 function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {

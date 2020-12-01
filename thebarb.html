@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+section {
+  height: 200px;
+  transition: height 1s;
+  margin: 100px;
+}
+
+section.open {
+  height: 1000px;
+}
+
+.red {
+  background: #f00;
+}
+
+.blue {
+  background: #00f;
+}
+
+.green {
+  background: #0f0;
+}
+
+.yellow {
+  background: #ff0;
+}
+
+</style>
+</head>
+<body>
+  <section class="red"></section>
+  <section class="blue"></section>
+  <section class="green"></section>
+  <section class="yellow"></section>
+<script>
+  const sections = document.querySelectorAll('section')
+
+  function closeAllSections() {
+    sections.forEach(section => {
+      section.classList.remove('open')
+    })
+  }
+
+  sections.forEach(section => {
+      section.addEventListener('click', e => {
+          if(!section.classList.contains('open')) closeAllSections()
+          section.classList.toggle('open')
+          setTimeout(() => section.scrollIntoView({behavior: "smooth", block: "center"}), 1500)
+      })
+  })
+
+</script>
+</body>
+</html>
