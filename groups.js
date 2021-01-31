@@ -1,3 +1,4 @@
+/*
 const students = [
   'Abel',
   'Alice',
@@ -18,9 +19,9 @@ const students = [
   'Lois',
   'Kelly',
 ]
+*/
 
 
-/*
 const students = [
   'Niam',
   'Alessandro',
@@ -29,19 +30,18 @@ const students = [
   'Owen',
   'Leona',
   'Lara',
-  //'Renata',
+  'Renata',
   //'Jackie',
-  //'Amber',
+  'Amber',
   'Hilal',
   'Alex',
   'Chiara',
   'Patrick',
   'Elina',
-  //'Ronaldo',
+  'Ronaldo',
   'Kacka',
   'Isabella'
 ]
-*/
 
 function shuffle(a) {
     for (let i = a.length - 1; i > 0; i--) {
