@@ -10,13 +10,15 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: false }))
 app.use(bodyParser.json({ limit: '50mb' }))
 
 app.get('/', (req, res) => {
+  console.log("Unity says hello...")
   //const file = await fs.readFile('alice.txt', 'utf8')
   res.send('Hello World!')
 })
 
 app.post('/', async (req, res) => {
   try {
-    await fs.writeFile('filename.txt', req.body.alice)
+    console.log("Unity talked to me....", req.body.x, req.body.y, req.body.z)
+    //await fs.writeFile('filename.txt', req.body.alice)
     res.send('POST request to the homepage')
   } catch(e) {
     res.status(500).send(e)
