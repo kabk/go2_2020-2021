@@ -2,19 +2,24 @@ const express = require('express'),
   bodyParser = require('body-parser')
   fs = require('fs').promises
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000 
 
+// We are middleware - JBG
+// I handle serving static pages - JBG
 app.use(express.static('public'))
 
+// We process POST body data - JBG
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: false }))
 app.use(bodyParser.json({ limit: '50mb' }))
 
+// I handle GET requests - JBG
 app.get('/', (req, res) => {
   console.log("Unity says hello...")
   //const file = await fs.readFile('alice.txt', 'utf8')
   res.send('Hello World!')
 })
 
+// I handle POST requests - JBG
 app.post('/', async (req, res) => {
   try {
     console.log("Unity talked to me....", req.body.x, req.body.y, req.body.z)
