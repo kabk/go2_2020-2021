@@ -16,7 +16,7 @@ app.use(bodyParser.json({ limit: '50mb' }))
 
 // I handle GET requests - JBG
 app.get('/', (req, res) => {
-  console.log("Unity says hello...")
+  //console.log("Unity says hello...")
   //const file = await fs.readFile('alice.txt', 'utf8')
   res.send(JSON.stringify(colors))
 })

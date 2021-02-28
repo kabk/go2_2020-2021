@@ -3,8 +3,8 @@
 <style>
 
 body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 </style>
@@ -12,7 +12,38 @@ body {
   <body>
         <script>
 
-          async function postData(red, blue) { 
+          async function postData(x, y) 
+          {
+            const red = x % 255
+            const blue = y % 255
+            const colors = { r: red, g: 255, b: blue }
+
+            const res = await fetch('/', 
+            {
+              method: 'POST',
+              body: JSON.stringify(colors),
+              headers:
+              {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              }
+            })
+            const txt = await res.text()
+            console.log(txt)
+
+          }
+
+          document.querySelector('body').addEventListener('mousemove', e => {
+            const x = e.offsetX
+            const y = e.offsetY
+            postData(x, y)
+          })
+          
+          /*
+
+          async function postData(x, y) { 
+            const red = x % 255
+            const blue = y % 255
             const colors = { r: red, g: 255, b: blue }
             const res = await fetch('/', {
               method: 'POST',
@@ -29,20 +60,15 @@ body {
           document.querySelector('body').addEventListener('mousemove', e => {
             const x = e.offsetX
             const y = e.offsetY
-            const red = x % 255
-            const blue = y % 255
-            console.log(x, y, red, blue)
-            postData(red, blue)
+            postData(x, y)
           })
 
           document.querySelector('body').addEventListener('touchmove', e => {
-            const x = e.offsetX
-            const y = e.offsetY
-            const red = x % 255
-            const blue = y % 255
-            console.log(x, y, red, blue)
-            postData(red, blue)
+            const x = e.screenX
+            const y = e.screenY
+            postData(x, y)
           })
+         */
 
 
         </script>

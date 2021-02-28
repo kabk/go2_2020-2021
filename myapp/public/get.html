@@ -4,17 +4,15 @@
   <body>
         <script>
 
-          async function getData() { 
+          async function getData() {
             const res = await fetch('/')
             const obj = await res.json()
             console.log(obj)
             document.querySelector('body').style = `background: rgba(${obj.r}, ${obj.g}, ${obj.b}, 1)`
-            // 2017 document.querySelector('body').style = 'background: rgba(' + obj.r + ', ' + obj.g + ', ' + obj.b + ', 1)'
-            // background: rgba(0, 0, 0, 1)
-
+            //document.querySelector('body').style = 'background: rgba(' + obj.r + ', ' + obj.g + ', ' + obj.b + ', 1)'
           }
 
-          setInterval(getData, 100)
+          setInterval(getData, 500)
 
         </script>
   </body>
