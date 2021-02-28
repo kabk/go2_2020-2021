@@ -44,7 +44,7 @@ Simple Client/Server example.
 
 ### Clients
 
-    [http://localhost:3000/get.html](http://localhost:3000/get.html)
+[http://localhost:3000/get.html](http://localhost:3000/get.html)
 
-    [http://localhost:3000/post.html](http://localhost:3000/post.html)
+[http://localhost:3000/post.html](http://localhost:3000/post.html)
 
