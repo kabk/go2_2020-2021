@@ -1,5 +1,5 @@
 const express = require('express'),
-  bodyParser = require('body-parser')
+  bodyParser = require('body-parser'),
   fs = require('fs').promises,
   fileUpload = require('express-fileupload')
 const app = express()
@@ -41,11 +41,16 @@ app.post('/', async (req, res) => {
   }
 })
 
+async function moveFile(path, fileName) {
+    await fs.rename(path, `public/${fileName}`)
+}
+
 // I handle file uploads - JBG
-app.post('/files', (req, res, next) => {
+app.post('/files', async (req, res, next) => {
   try {
     for(const [key, file] of Object.entries(req.files)) {
       console.log(file.tempFilePath, file.name)
+      await moveFile(file.tempFilePath, file.name)
       res.send('We got your file!')
     }
   } catch(e) {
