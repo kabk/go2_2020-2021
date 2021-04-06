@@ -42,9 +42,27 @@ Simple Client/Server example.
 
     $ node index.js
 
+### Install dependencies
+
+    $ npm install
+
+### Add dependency
+
+Will make a new entry in package.json
+
+    $ npm install express --add
+
 ### Clients
 
 [http://localhost:3000/get.html](http://localhost:3000/get.html)
 
 [http://localhost:3000/post.html](http://localhost:3000/post.html)
+
+## NewBehaviorScript.cs (Unity)
+
+This script contains examples on how to do GET and POST requests from Unity.
+
+## ChangeMaterialOnCollision.cs (Unity)
+
+This script shows how to change material on a clicks and collisions, also contains GET and POST examples.
 
