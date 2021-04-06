@@ -58,6 +58,10 @@ Will make a new entry in package.json
 
 [http://localhost:3000/post.html](http://localhost:3000/post.html)
 
+#### File upload example
+
+[http://localhost:3000/file.html](http://localhost:3000/file.html)
+
 ## NewBehaviorScript.cs (Unity)
 
 This script contains examples on how to do GET and POST requests from Unity.
