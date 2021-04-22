@@ -1,0 +1,40 @@
+<html>
+  <head>
+<style>
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+</style>
+  </head>
+  <body>
+    <fieldset>
+      <input type="file" name="file" id="file" label="file"/>
+      <button onclick="upload()">upload</button>↑
+      <p class="msg"></p>
+    </fieldset>
+    <script>
+
+async function upload() {
+  console.log("upload")
+  const file = document.querySelector('input[name="file"]')
+  const data = new FormData()
+
+  data.append('file', file.files[0])
+
+  try {
+    const res = await fetch(`/files`, {
+      method: 'POST',
+      body: data
+    })
+    document.querySelector('.msg').innerHTML = await res.text()
+  } catch (e) {
+    document.querySelector('.msg').innerHTML = e.message
+  }
+}
+    </script>
+  </body>
+</html>
+
