@@ -62,6 +62,16 @@ Will make a new entry in package.json
 
 [http://localhost:3000/file.html](http://localhost:3000/file.html)
 
+## AR.js/Aframe examples
+
+An example of tap click, aframe only no AR.
+
+[http://localhost:3000/ar/aframe.html](http://localhost:3000/ar/aframe.html)
+
+An example of cursor click, w/ AR.
+
+[http://localhost:3000/ar/index.html](http://localhost:3000/ar/index.html)
+
 ## NewBehaviorScript.cs (Unity)
 
 This script contains examples on how to do GET and POST requests from Unity.
