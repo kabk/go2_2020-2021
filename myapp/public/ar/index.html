@@ -52,32 +52,12 @@ AFRAME.registerComponent('cursor-listener', {
     </a-entity>
   </a-camera>
 
-  <a-entity cursor-listener gps-entity-place="latitude: 52.3887163; longitude: 4.8868887;">
+  <a-entity cursor-listener gps-entity-place="latitude: 52.3878537; longitude: 4.8832435;">
     <a-entity mixin="cube green">
       <a-animation begin="click" attribute="rotation" to="0 360 0"
                    easing="linear" dur="2000" fill="backwards"></a-animation>
     </a-entity>
   </a-entity>
-
-
-        <!--
-                <a-image
-                    name="pink1"
-                    src="assets/asset.png"
-                    look-at="[gps-camera]"
-                    scale="1 1 1"
-                    gps-entity-place="latitude: 52.3887163; longitude: 4.8868887;"
-                    onclick="clickListener"
-                ></a-image>
-                <a-image
-                    name="pink2"
-                    src="assets/asset.png"
-                    look-at="[gps-camera]"
-                    scale="1 1 1"
-                    gps-entity-place="latitude: 52.389485; longitude: 4.8878302;"
-                    onclick="clickListener"
-                ></a-image>
-        -->
 
         </a-scene>
     </body>
