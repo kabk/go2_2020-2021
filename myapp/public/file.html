@@ -7,11 +7,23 @@ body {
   width: 100vw;
 }
 
+input[type=file] {
+    display: none;
+}
+
+label, button {
+  font-size: 100px;
+}
+
+
 </style>
   </head>
   <body>
     <fieldset>
-      <input type="file" name="file" id="file" label="file"/>
+      <label>This is the file
+        <img src="Fabwall-Black.png"/>
+        <input type="file" name="file" id="file" label="file"/>
+      </label>
       <button onclick="upload()">upload</button>↑
       <p class="msg"></p>
     </fieldset>

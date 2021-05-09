@@ -80,3 +80,7 @@ This script contains examples on how to do GET and POST requests from Unity.
 
 This script shows how to change material on a clicks and collisions, also contains GET and POST examples.
 
+## Positions.cs (Unity)
+
+This script POSTs the position of an object on a mouse click to a node.js service, and GETs a list of positions from the same node.js service.  What's interesting to see here is how the serialization and deserialization of JSON responses work in Unity. 
+

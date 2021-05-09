@@ -6,6 +6,7 @@ const app = express()
 const port = process.env.PORT || 3000 
 
 let colors = { r: 255, g: 0, b: 0 }
+let positions = []
 
 // We are middleware - JBG
 // I handle serving static pages - JBG
@@ -53,6 +54,26 @@ app.post('/files', async (req, res, next) => {
       await moveFile(file.tempFilePath, file.name)
       res.send('We got your file!')
     }
+  } catch(e) {
+    res.status(500).send(e)
+  }
+})
+
+// I handle GET requests from Unity for positions - JBG
+app.get('/postcoords', (req, res) => {
+  console.log("Unity says hello..", positions)
+  // const file = await fs.readFile('alice.txt', 'utf8')
+  res.send(JSON.stringify({positions: positions}))
+})
+
+// I handle POST requests from Unity of positions - JBG
+app.post('/postcoords', async (req, res) => {
+  let position = {x: req.body.x, y: req.body.y, z: req.body.z}
+  positions.push(position)
+  try {
+    console.log("Unity talked to me....", req.body.x, req.body.y, req.body.z)
+    console.log(position)
+    res.send('position:' + position)
   } catch(e) {
     res.status(500).send(e)
   }
